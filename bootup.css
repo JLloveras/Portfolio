@@ -1,0 +1,10 @@
+body{
+    background-color:black;
+}
+img{
+    height:50%;
+    width:50%;
+    margin:15% 25%;
+    filter:opacity(0);
+    transition: filter 3s;
+}

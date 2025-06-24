@@ -1,4 +1,3 @@
-
 body{
     font-family: "Lexend";
     background-color:black;
@@ -7,9 +6,10 @@ body{
 .important{
     color:#dddddd;
     text-align:center;
+    padding: 15px;
 }
 .large-green{
-    color:rgb(0, 175, 0);
+    color:#48872B;
     padding: 0px 20px 10px 20px;
 }
 .info{
@@ -32,7 +32,7 @@ body{
 }
 a:link,a:visited{
     text-decoration:none;
-    color:rgb(170,170,170);
+    color:rgb(255, 255, 255);
 }
 .link-decor:link,.link-decor:visited{
     text-decoration:underline;
@@ -72,9 +72,9 @@ a:link,a:visited{
   text-align: center;
 }
 
-.carousel__cell:nth-child(5n+1) { background: rgb(59, 158, 34); }
+.carousel__cell:nth-child(5n+1) { background: #48872B; }
 .carousel__cell:nth-child(5n+2) { background-image: linear-gradient(white, black); color:#FFF; }
-.carousel__cell:nth-child(5n+3) { background: hsl(0, 0%, 20%); }
+.carousel__cell:nth-child(5n+3) { background-image: linear-gradient(to bottom right,#505081,#0F0E47); }
 .carousel__cell:nth-child(5n+4) { background-image: linear-gradient(hsl(192, 98%, 35%), hsl(192, 100%, 15%)); }
 .carousel__cell:nth-child(5n+0) { background: hsl(0, 0%, 20%); }
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(241px); }
