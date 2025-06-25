@@ -12,7 +12,10 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        
+        <!--Navbar-->
+        
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top down">
             <div class="container-fluid">
                 <img src="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAq1sAANVwAAAzHwAA834AAF00AACHSQAAsV4AANtzAAA5IgAA+YEAAGM3AACNTAAAt2EAAOF2AAA/JQAA/4QAAGk6AACTTwAAvWQAABsTAABFKAAAbz0AAJlSAADDZwAAIRYAAO18AABLKwAAdUAAAJ9VAADJagAAJxkAAFEuAAClWAAAz20AAC0cAABXMQAACgYCAIFGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCxEAAAAAAAAAAAAAAAAkAAAAFgAAFCUlJSUAAAAgAAAAAAAcGQAAAAAAJSUAGwAAAAAjHwAAAAAAAAAAJQAVDwkDACYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAQaAQ4IAgAAAAAAAAAAEAoAAAcAAAAiAAAAAAAAAAAAAAAADQAAHgAAAAAAAAAAAAAAAAATGAAAAAAAAAAAAAAAAAAAAAAAAAAAAMf/AAC7BwAAfPkAAHn+AACF/wAA/f8AAP3/AAD+/wAA/v8AAP7/AAD+/wAA+B8AAObvAAD/bwAA/58AAP//AAA=">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -20,46 +23,59 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
+                        
                         <li class="nav-item">
                             <a class="nav-link active" href="home.html">Home</a>
                         </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="resume.html">Resume</a>
                         </li>
+                        
                         <li class="nav-item">   
                             <a class="nav-link" href="about.html">About Me</a>
                         </li>  
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-dark" href="http://127.0.0.1:5500/CYO-adventure/Adventure.html">C.Y.O. Adventure</a></li>
-                            <li><a class="dropdown-item text-dark" href="http://127.0.0.1:5500/Buzzfeed-type-Project/index.html">Buzzfeed Quiz</a></li>
-                            <li><a class="dropdown-item text-dark" href="https://codehs.com/sandbox/juanlloveras/battleship-javascript-final/run">Battleship</a></li>
-                        </ul>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="http://127.0.0.1:5500/CYO-adventure/Adventure.html">C.Y.O. Adventure</a></li>
+                                <li><a class="dropdown-item text-dark" href="http://127.0.0.1:5500/Buzzfeed-type-Project/index.html">Buzzfeed Quiz</a></li>
+                                <li><a class="dropdown-item text-dark" href="https://codehs.com/sandbox/juanlloveras/battleship-javascript-final/run">Battleship</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <br>
-        <h1 class="important">Hi, I'm Juan</h1>
-        <div class="container">
+        
+        <!--Quick Overview-->
+        
+        <h1 class="important" id="fade-in">Hi, I'm Juan</h1>
+        <div class="container" id="fade-in2">
             <p>I'm a computer programmer stationed within the United States, specifically in Indiana. I can code with HTML, Javascript, and CSS, but my main coding language is Javascript.</p>
         </div>
-        <h1 class="important">Works and Previous Projects</h1>
+        <h1 class="important" id="fade-in3">Works and Previous Projects</h1>
+        
         <!--Credit to David DeSandro for the 3D Carousel-->
-        <div class="scene">
-            <div class="carousel">
-                <div class="carousel__cell"><a href="resume.html">Resume</a></div>
-                <div class="carousel__cell"><a href="http://127.0.0.1:5500/CYO-adventure/Adventure.html">C.Y.O. Adventure</a></div>
-                <div class="carousel__cell"><a href="http://127.0.0.1:5500/Buzzfeed-type-Project/index.html">Buzzfeed Quiz</a></div>
-                <div class="carousel__cell"><a href="https://codehs.com/sandbox/juanlloveras/battleship-javascript-final/run">Battleship</a></div>
-                <div class="carousel__cell"><a href="about.html">About Me</a></div>
+        
+        <div id="fade_carousel">
+            <div class="scene">
+                <div class="carousel">
+                    <div class="carousel__cell"><a href="resume.html">Resume</a></div>
+                    <div class="carousel__cell"><a href="http://127.0.0.1:5500/CYO-adventure/Adventure.html">C.Y.O. Adventure</a></div>
+                    <div class="carousel__cell"><a href="http://127.0.0.1:5500/Buzzfeed-type-Project/index.html">Buzzfeed Quiz</a></div>
+                    <div class="carousel__cell"><a href="https://codehs.com/sandbox/juanlloveras/battleship-javascript-final/run">Battleship</a></div>
+                    <div class="carousel__cell"><a href="about.html">About Me</a></div>
+                </div>
             </div>
+
+            <p style="text-align: center;">
+            <button class="previous-button">Back</button>
+            <button class="surprise-button">Surprise Me</button>
+            <button class="next-button">Next</button>
+            </p>
         </div>
-        <p style="text-align: center;">
-        <button class="previous-button">Previous</button>
-        <button class="next-button">Next</button>
-        </p>
     </body>
 </html>

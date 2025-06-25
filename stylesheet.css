@@ -1,24 +1,31 @@
 body{
     font-family: "Lexend";
-    background-color:black;
-    color:rgb(170,170,170);
+    background-color:#001f08;
+    color:#b1dbe2;
+    overflow:hidden;
+}
+.navbar-fixed-top{
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:100;
 }
 .important{
-    color:#dddddd;
+    color:#d7f4ff;
     text-align:center;
     padding: 15px;
 }
 .large-green{
-    color:#48872B;
+    color:#5DAE37;
     padding: 0px 20px 10px 20px;
 }
 .info{
-    color:gray;
+    color:#b1dbe2;
     font-weight:lighter;
     padding: 0px 30px;
 }
 .job{
-    color:rgb(112, 112, 112);
+    color:#799da3;
     font-weight:bold;
     padding:0px 25px;
 }
@@ -28,15 +35,37 @@ body{
     width:60%
 }
 .active{
-    color:rgb(114, 114, 114)
+    color:#498580
 }
+
 a:link,a:visited{
     text-decoration:none;
     color:rgb(255, 255, 255);
 }
 .link-decor:link,.link-decor:visited{
     text-decoration:underline;
-    color:rgb(75, 75, 255);
+    color:rgb(105, 200, 255);
+}
+
+#fade-in{
+    filter:opacity(0);
+    transition: filter 1s;
+}
+#fade-in2{
+    transform:translateY(2500px);
+    transition: transform 1s;
+}
+#fade-in3{
+    transform:rotateY(90deg);
+    transition: transform 1s;
+}
+#fade_carousel{
+    transform:rotateX(90deg);
+    transition: transform 1s;
+}
+.down{
+    transform:translateY(-60px);
+    transition: transform 1s;
 }
 /*Credit to David DeSandro for the 3D Carousel. Thank you*/
 * { box-sizing: border-box; }
@@ -72,14 +101,15 @@ a:link,a:visited{
   text-align: center;
 }
 
-.carousel__cell:nth-child(5n+1) { background: #48872B; }
+.carousel__cell:nth-child(5n+1) { background-image: linear-gradient(#48872B,#113f11 ); }
 .carousel__cell:nth-child(5n+2) { background-image: linear-gradient(white, black); color:#FFF; }
 .carousel__cell:nth-child(5n+3) { background-image: linear-gradient(to bottom right,#505081,#0F0E47); }
 .carousel__cell:nth-child(5n+4) { background-image: linear-gradient(hsl(192, 98%, 35%), hsl(192, 100%, 15%)); }
-.carousel__cell:nth-child(5n+0) { background: hsl(0, 0%, 20%); }
+.carousel__cell:nth-child(5n+0) { background-image: linear-gradient(#b1dbe2, #2d524f); }
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(241px); }
 .carousel__cell:nth-child(2) { transform: rotateY( 72deg) translateZ(241px); }
 .carousel__cell:nth-child(3) { transform: rotateY( 144deg) translateZ(241px); }
 .carousel__cell:nth-child(4) { transform: rotateY( 216deg) translateZ(241px); }
 .carousel__cell:nth-child(5) { transform: rotateY(288deg) translateZ(241px); }
 
+ 

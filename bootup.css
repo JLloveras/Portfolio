@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    transition: background-color 3s; 
 }
 img{
     height:50%;
