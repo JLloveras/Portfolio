@@ -2,7 +2,6 @@ body{
     font-family: "Lexend";
     background-color:#001f08;
     color:#b1dbe2;
-    overflow:hidden;
 }
 .navbar-fixed-top{
     width:100%;
@@ -47,6 +46,9 @@ a:link,a:visited{
     color:rgb(105, 200, 255);
 }
 
+#hide{
+    overflow:hidden;
+}
 #fade-in{
     filter:opacity(0);
     transition: filter 1s;

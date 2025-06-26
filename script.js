@@ -15,8 +15,10 @@ setTimeout(function(){
 }, 750);
 
 var fade3 = document.querySelector('#fade-in3');
+var hidden= document.querySelector('#hide');
 setTimeout(function(){
   fade3.style.transform='rotateY(0deg)';
+  hidden.style.overflow='auto';
 }, 1750);
 
 var fade4 = document.querySelector('#fade_carousel');
