@@ -45,6 +45,11 @@ a:link,a:visited{
     color:rgb(105, 200, 255);
 }
 
+button{
+    background-color:#505081;
+    color: #b1dbe2;
+}
+
 #hide{
     overflow:hidden;
 }
