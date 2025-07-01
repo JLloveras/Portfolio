@@ -10,5 +10,5 @@ setTimeout(function(){
     image.style.filter="opacity(0)";
 }, 3000);
 setTimeout(function(){
-    window.location.replace("http://127.0.0.1:5500/Portfolio/home.html");
+    window.location.replace("http://jlloveras.github.io/Portfolio/home.html");
 }, 5500);
