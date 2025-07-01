@@ -3,6 +3,9 @@ body{
     background-color:#001f08;
     color:#b1dbe2;
 }
+p{
+    font-size:20px;
+}
 .navbar-fixed-top{
     position:sticky;
     top:0;
