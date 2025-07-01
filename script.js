@@ -3,6 +3,8 @@ var cellCount = 5;
 var selectedIndex = 0;
 var speed=6;
 
+
+//These functions and variables are for the home page starting up.
 var fade1 = document.querySelector("#fade-in");
 var down = document.querySelector('.down');
 setTimeout(function(){
@@ -27,11 +29,13 @@ setTimeout(function(){
   fade4.style.transform='rotateX(0deg)';
 }, 2000);
 
+//This function rotates the entire carousel, using the "angle" variable and the selectedIndex, which selects the cells
 function rotateCarousel() {
   var angle = selectedIndex / cellCount * -360 * speed;
   carousel.style.transform = 'translateZ(-241px) rotateY(' + angle + 'deg)';
 }
 
+//These functions change variables such as "selectedIndex" or "speed" to change which cell is in front and how fast they turn.
 var prevButton = document.querySelector('.previous-button');
 prevButton.addEventListener( 'click', function() {
   selectedIndex--;
