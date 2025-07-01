@@ -53,9 +53,11 @@ slowButton.addEventListener( 'click', function(){
   if(speed===6){
     slowButton.innerHTML='Speed Up';
     speed=1;
+    rotateCarousel();
   } else if(speed===1) {
     slowButton.innerHTML='Slow Down';
     speed=6;
+    rotateCarousel();
   }
 });
 
