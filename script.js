@@ -1,7 +1,7 @@
 var carousel = document.querySelector('.carousel');
-var cellCount = 5;
+var cellCount = 6;
 var selectedIndex = 0;
-var speed=6;
+var speed=7;
 
 
 //These functions and variables are for the home page starting up.
@@ -50,13 +50,13 @@ surpriseButton.addEventListener( 'click', function() {
 
 var slowButton = document.querySelector('.slow-down-button');
 slowButton.addEventListener( 'click', function(){
-  if(speed===6){
+  if(speed===7){
     slowButton.innerHTML='Speed Up';
     speed=1;
     rotateCarousel();
   } else if(speed===1) {
     slowButton.innerHTML='Slow Down';
-    speed=6;
+    speed=7;
     rotateCarousel();
   }
 });

@@ -130,15 +130,17 @@ button{
 }
 /*This uses the "nth-child" selector and change each cell to their specific style*/
 
-.carousel__cell:nth-child(5n+1) { background-image: linear-gradient(#48872B,#113f11 ); }
-.carousel__cell:nth-child(5n+2) { background-image: linear-gradient(white, black); color:#FFF; }
-.carousel__cell:nth-child(5n+3) { background-image: linear-gradient(to bottom right,#505081,#0F0E47); }
-.carousel__cell:nth-child(5n+4) { background-image: linear-gradient(hsl(192, 98%, 35%), hsl(192, 100%, 15%)); }
-.carousel__cell:nth-child(5n+0) { background-image: linear-gradient(#b1dbe2, #2d524f); }
-.carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(361px); }
-.carousel__cell:nth-child(2) { transform: rotateY( 72deg) translateZ(361px); }
-.carousel__cell:nth-child(3) { transform: rotateY( 144deg) translateZ(361px); }
-.carousel__cell:nth-child(4) { transform: rotateY( 216deg) translateZ(361px); }
-.carousel__cell:nth-child(5) { transform: rotateY(288deg) translateZ(361px); }
+.carousel__cell:nth-child(6n+1) { background-image: linear-gradient(#48872B,#113f11 ); }
+.carousel__cell:nth-child(6n+2) { background-image: linear-gradient(white, black); color:#FFF; }
+.carousel__cell:nth-child(6n+3) { background-image: linear-gradient(to bottom right,#505081,#0F0E47); }
+.carousel__cell:nth-child(6n+4) { background-image: linear-gradient(hsl(192, 98%, 35%), hsl(192, 100%, 15%)); }
+.carousel__cell:nth-child(6n+5) { background-image: linear-gradient(#b1dbe2, #2d524f); }
+.carousel__cell:nth-child(6n+0) { background-image: linear-gradient(#498580, #48872B);}
+.carousel__cell:nth-child(1) { transform: rotateY(   0deg) translateZ(455px); }
+.carousel__cell:nth-child(2) { transform: rotateY(  60deg) translateZ(455px); }
+.carousel__cell:nth-child(3) { transform: rotateY( 120deg) translateZ(455px); }
+.carousel__cell:nth-child(4) { transform: rotateY( 180deg) translateZ(455px); }
+.carousel__cell:nth-child(5) { transform: rotateY( 240deg) translateZ(455px); }
+.carousel__cell:nth-child(6) { transform: rotateY( 300deg) translateZ(455px); }
 
  
