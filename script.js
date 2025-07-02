@@ -29,7 +29,7 @@ setTimeout(function(){
   fade4.style.transform='rotateX(0deg)';
 }, 2000);
 
-//This function rotates the entire carousel, using the "angle" variable and the selectedIndex, which selects the cells
+//This function rotates the entire carousel, using the "angle" variable and "selectedIndex", which documents which cell is in front
 function rotateCarousel() {
   var angle = selectedIndex / cellCount * -360 * speed;
   carousel.style.transform = 'translateZ(-241px) rotateY(' + angle + 'deg)';
